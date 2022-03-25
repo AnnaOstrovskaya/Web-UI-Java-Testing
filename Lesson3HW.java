@@ -21,7 +21,7 @@ public class Lesson3HW {
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.simplycook.com/");
 
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(3));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(4));
 
         // 1 нажать на человечка
         WebElement loginButton = driver.findElement(By.xpath("//a[@href = '/login-register']"));
